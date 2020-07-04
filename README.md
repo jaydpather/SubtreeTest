@@ -8,3 +8,5 @@
     $ git subtree add --prefix=SubtreeTest-UILayer/ SubtreeTest-UILayer master
     * --prefix is the folder name. (make this match the subtree repo name, for simplicity)
     * --note: this command specifies which branch of the Subtree repo you want (master)
+  * once this is done, you can check the git history to see which commit was used for each subtree.
+    * it seems there is no way to directly view which branch was used. You have to open the commit
