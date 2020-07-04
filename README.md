@@ -7,3 +7,4 @@
   * jaydp@LAPTOP-A71RG4T1 MINGW64 ~/Documents/Github/SubtreeTest (master)
     $ git subtree add --prefix=SubtreeTest-UILayer/ SubtreeTest-UILayer master
     * --prefix is the folder name. (make this match the subtree repo name, for simplicity)
+    * --note: this command specifies which branch of the Subtree repo you want (master)
