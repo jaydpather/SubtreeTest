@@ -13,4 +13,6 @@
 
 ## To make changes to a subtree via the main project:
   * make changes in main project, commit and push
-  * then do git subtree push --prefix=SubtreeTest-UILayer/ SubtreeTest-UILayer master
+  * then do:
+    * git subtree push --prefix=SubtreeTest-UILayer/ SubtreeTest-UILayer master
+    * git subtree push --prefix=[dirName] [subtreeName (same name you used in git subtree add)] [branch]
