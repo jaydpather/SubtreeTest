@@ -16,3 +16,8 @@
   * then do:
     * git subtree push --prefix=SubtreeTest-UILayer/ SubtreeTest-UILayer master
     * git subtree push --prefix=[dirName] [subtreeName (same name you used in git subtree add)] [branch]
+
+## To import changes made to subtree project:
+  * git subtree pull --prefix=SubtreeTest-UILayer/ SubtreeTest-UILayer master
+  * git subtree pull --prefix=[dirName] [subtreeName (same name you used in git subtree add)] [branch]
+  
