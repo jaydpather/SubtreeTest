@@ -10,3 +10,7 @@
     * --note: this command specifies which branch of the Subtree repo you want (master)
   * once this is done, you can check the git history to see which commit was used for each subtree.
     * it seems there is no way to directly view which branch was used. You have to open the commit
+
+## To make changes to a subtree via the main project:
+  * make changes in main project, commit and push
+  * then do git subtree push --prefix=SubtreeTest-UILayer/ SubtreeTest-UILayer master
